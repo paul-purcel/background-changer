@@ -1,0 +1,23 @@
+{
+  "name": "background-changer",
+  "version": "0.0.1",
+  "description": "Simple jQuery background color changer",
+  "main": "",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-uglify": "~0.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paul-purcel/background-changer.git"
+  },
+  "author": "Paul P",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paul-purcel/background-changer/issues"
+  }
+}
