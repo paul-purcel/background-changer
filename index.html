@@ -1,0 +1,32 @@
+<html>
+    <head>
+        
+    </head>
+    
+    <body>
+        
+        <h1>this is a demo</h1>
+        <ul id="change">
+            <li>Line 1</li>
+            <li>Line 2</li>
+            <li>Line 3</li>
+            <li>Line 4</li>
+        </ul>
+        
+        <button id="revert">Revert changes !</button>
+        
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="src/jquery.background-changer.js"></script>
+        <script>
+            $(function($){
+                $('#change li').backgroundChanger({
+                    color:'#E11E11'
+                });
+                
+                $('#revert').click(function(){
+                    $('#change li').backgroundChanger('clear');
+                });
+            });
+        </script>
+    </body>
+</html>
